@@ -1,0 +1,14 @@
+import java.io.*;
+public class This_demo{
+private int a=50;//a is class variable
+public void Set_Number(int a) //a is local variable
+{
+  this.a=a;// this is class variable
+  System.out.println("a value is :"+a);
+}
+public static void main(String args[])
+{
+  This_demo Td=new This_demo(); //Td instance variable
+  Td.Set_Number(60); //invoking no
+}
+}
