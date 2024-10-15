@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-class Primenumbers
+class Primenumbers 
 {
 	public static void main(String args[])
 	{
